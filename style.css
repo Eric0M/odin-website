@@ -1,0 +1,155 @@
+/* Main decorators */
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #588157;
+}
+
+/* Class decorators starting with header */
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #344E41;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 100px;
+    
+    
+}
+
+/* Quadrant 1 */
+
+.image {
+    height: 333px;
+    width: 500;
+    box-shadow: 0 0 5px 5px #182b21;
+}
+
+.quad1 {
+    background-color: #3A5A40;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.q1text {
+    margin: 0;
+    font-size: 60px;
+}
+
+.q1p, .q1button {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.q1button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #588157;
+    
+}
+
+.q1box {
+    width: 500px;
+    height: 333px;
+}
+
+/* Quadrant 2 */
+
+.quad2 {
+    background-color: #588157;
+    display: flex;
+    height: 300px;
+}
+
+/* Quadrant 3 */
+
+.quad3 {
+    background-color: #A3B18A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+/* Quadrant 4 */
+
+.quad4 {
+    background-color: #DAD7CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.calltoaction {
+    background-color: #3A5A40;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.calltotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.calltext {
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.callbutton {
+    height: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: #DAD7CD;
+    color: #344E41;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #344E41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
