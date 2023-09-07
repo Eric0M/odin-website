@@ -2,10 +2,13 @@
 
 body {
     margin: 0;
+    font-family:'Times New Roman', Times, serif
+    
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -19,6 +22,10 @@ a {
     height: 50px;
     width: 50px;
     border-radius: 20px;
+    /* margin-left: 300px; */
+    margin-left: 450px;
+    
+    
 }
 .header {
     display: flex;
@@ -27,6 +34,7 @@ a {
     justify-content: space-between;
     align-items: center;
     
+    
 
 }
 
@@ -34,7 +42,10 @@ a {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-right: 100px;
+    /* margin-right: 300px; */
+    margin-right: 450px;
+    font-size: 18px;
+    
     
     
 }
@@ -53,19 +64,26 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 500px;
+    /* gap: 300px; */
     
 }
 
 .q1text {
     margin: 0;
-    font-size: 60px;
+    font-size: 48px;
+    font-weight: bolder;
+    /* width: max-content; */
 }
 
 .q1p, .q1button {
     margin-left: 15px;
     margin-bottom: 10px;
     margin-top: 0;
+}
+
+.q1p {
+    font-size: 18px;
 }
 
 .q1button {
@@ -86,7 +104,7 @@ a {
 .quad2 {
     background-color: #588157;
     display: flex;
-    height: 300px;
+    height: 400px;
 }
 
 /* Quadrant 3 */
@@ -99,6 +117,10 @@ a {
     height: 300px;
 }
 
+.q3p {
+    font-size: 36px;
+}
+
 /* Quadrant 4 */
 
 .quad4 {
@@ -106,7 +128,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 300px;
 }
 
 .calltoaction {
@@ -116,6 +138,7 @@ a {
     display: flex;
     flex-direction: row;
     border-radius: 10px;
+    box-shadow: 0 0 5px 5px #83817a
 }
 
 .calltotext {
